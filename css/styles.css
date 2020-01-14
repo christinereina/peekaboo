@@ -1,20 +1,27 @@
-.element-showing1 {
+.element-showing0, .element-showing1, .toggle {
   display: none;
 }
 
-.element-showing0 {
-  display: none;
-}
-
-.clickable1, .clickable0 {
+.clickable1, .clickable0, .clickable2 {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable1:hover, .clickable0:hover {
+.clickable1:hover, .clickable0:hover, .clickable2:hover {
   text-decoration: underline;
 }
 
 img {
   width: 100%;
+}
+
+
+.darkmode {
+  background-color: black;
+  color: white;
+}
+
+.lightmode {
+  background-color: white;
+  color: black;
 }
