@@ -1,12 +1,6 @@
 $(document).ready(function() {
-  $("button#modechange1").click(function() {
-    $("body").removeClass();
-    $("body").addClass("darkmode");
-  });
-
-  $("button#modechange2").click(function() {
-    $("body").removeClass();
-    $("body").addClass("lightmode");
+  $("button#modechange").click(function() {
+    $("body").toggleClass("darkmode");
   });
 });
 
